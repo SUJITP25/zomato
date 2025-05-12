@@ -1,0 +1,54 @@
+# Node.js डिपेंडेंसीज़
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment वेरिएबल्स
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# लॉग फ़ाइलें
+logs/
+*.log
+*.log.*
+
+# रनटाइम डेटा
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# टेस्ट कवरेज
+coverage/
+.nyc_output/
+
+# बिल्ड डायरेक्टरीज़
+build/
+dist/
+public/
+
+# ऑपरेटिंग सिस्टम-विशिष्ट फ़ाइलें
+.DS_Store
+Thumbs.db
+
+# IDE-विशिष्ट फ़ाइलें
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# अन्य कैश और टेम्प फाइल्स
+.parcel-cache/
+.next/
+.npm/
+.eslintcache
+.stylelintcache
+.node_repl_history
